@@ -1,0 +1,13 @@
+/* Variables */
+:root {
+    --color-primary: red;
+    --color-secondary: green;
+}
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
