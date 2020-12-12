@@ -5,20 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- to support older IE browsers-->
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Samiul (Full Stack Developer)</title>
 </head>
 
 <body>
     <header>
-        <div>
-            <h1>Samiul</h1>
+        <div class="header__title">
+            <h1>
+                <a href="/">Samiul</a>
+            </h1>
         </div>
         <!-- Start of Navigation Links -->
-        <nav>
-            <a href="#about-me">About Me</a>
-            <a href="#work">Work</a>
-            <a href="#contact-me">Contact Me</a>
-            <a href="#">Resume</a>
+        <nav class="header__nav">
+            <ul>
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#work">Work</a>
+                </li>
+                <li>
+                    <a href="#contact-me">Contact Me</a>
+                </li>
+                <li>
+                    <a href="#">Resume</a>
+                </li>
+            </ul>
         </nav>
         <!-- End of Navigation Links -->
     </header>
@@ -30,8 +43,8 @@
         <!-- End of Hero/Jumbotron Section -->
 
         <!-- Start of About Me Section -->
-        <section id="about-me">
-            <div>
+        <section id="about-me" class="about">
+            <div class="section__header">
                 <h1>About Me</h1>
             </div>
             <div>
@@ -52,15 +65,17 @@
         <!-- End of About Me Section -->
         
         <!-- Start of Work Experience Section -->
-        <section id="work">
-            <div>
+        <section id="work"class="sections work">
+            <div class="section__title">
                 <h1>Work</h1>
-                <div>
-                    <div>Work 1</div>
-                    <div>Work 2</div>
-                    <div>Work 3</div>
-                    <div>Work 4</div>
-                    <div>Work 5</div>
+            </div>
+            <div class="project-grid-wrapper">
+                <div class="project-grid-container">
+                    <div class="project-grid-item item-main">Surf Report</div>
+                    <div class="project-grid-item">LED Wall</div>
+                    <div class="project-grid-item">Calculator</div>
+                    <div class="project-grid-item">Pastel Puzzels</div>
+                    <div class="project-grid-item">Run Buddy</div>
                 </div>
             </div>
         </section>

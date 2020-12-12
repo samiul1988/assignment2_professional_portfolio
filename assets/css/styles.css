@@ -14,16 +14,69 @@
 }
 
 body {
-    color: var(--color-tertiary);
+    background-color: var(--color-background);
     font-family: Helvetica, Arial, sans-serif;
 }
 
+section {
+    padding: 60px;
+}
+
+/* Start of Common Class Styles */
+.sections {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section__title {
+    border-right: 0.5rem solid var(--color-primary);
+}
+
+.section__title h1 {
+    font-size: 2.5rem;
+}
+/* End of Common Class Styles */
+
 /* Start of Header and Navbar Styles */
+header {
+    background-color: var(--color-tertiary);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 35px 10px 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.header__title {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    width: 300px;
+    text-align: right;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
 
 /* End of Header and Navbar Styles */
 
 /* Start of Hero Section Styles */
+.hero {
+    background-image: linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)), url("../images/hero-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: center;
+    
 
+}
 /* End of Hero Section Styles */
 
 /* Start of About Me Section Styles */
@@ -31,6 +84,24 @@ body {
 /* End of About Me Section Styles */
 
 /* Start of Work Section Section Styles */
+.project-grid-wrapper {
+    width: 100%;
+}
+
+.project-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 0.2rem;
+}
+
+.project-grid-item {
+    border:thick double var(--color-secondary);
+}
+.item-main {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
 
 /* End of Work Section Section Styles */
 
