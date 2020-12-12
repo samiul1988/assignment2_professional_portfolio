@@ -1,13 +1,39 @@
 /* Variables */
 :root {
-    --color-primary: red;
-    --color-secondary: green;
+    --color-primary: rgb(70, 86, 113);
+    --color-secondary: rgb(158, 206, 208);
+    --color-tertiary: rgb(49, 52, 62);
+    --color-background: rgb(237, 238, 246);
 }
 
-/* Reset */
+/* Global Reset */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+body {
+    color: var(--color-tertiary);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Start of Header and Navbar Styles */
+
+/* End of Header and Navbar Styles */
+
+/* Start of Hero Section Styles */
+
+/* End of Hero Section Styles */
+
+/* Start of About Me Section Styles */
+
+/* End of About Me Section Styles */
+
+/* Start of Work Section Section Styles */
+
+/* End of Work Section Section Styles */
+
+/* Start of Contact Me Styles */
+
+/* End of Contact Me Styles */
