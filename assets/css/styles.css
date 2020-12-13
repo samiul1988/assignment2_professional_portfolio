@@ -13,7 +13,7 @@
     padding: 0;
 }
 
-/* Styling of HTML default tags */
+/* Start of Styling of HTML default tags */
 html {
     font-size: 16px;
 }
@@ -28,27 +28,7 @@ section {
     padding: 25px 100px;
 }
 
-/* Start of Common Class Styles */
-.sections {
-    display: flex;
-    justify-content: start;
-    color: var(--color-primary);
-}
-
-.sections__title {
-    padding: 0 20px;
-    text-align: end;
-} 
-
-.sections__content {
-    border-left: 0.2rem solid var(--color-primary);
-    padding: 0px 0px 5px 30px;
-    flex: 1 auto;
-}
-.sections__title h1 {
-    font-size: 2.5rem;
-}
-/* End of Common Class Styles */
+/* End of Styling of HTML default tags */
 
 /* Start of Header and Navbar Styles */
 header {
@@ -108,6 +88,29 @@ header nav ul li a {
 }
 /* End of Hero Section Styles */
 
+/* Start of Common Class Styles */
+.sections {
+    display: flex;
+    justify-content: start;
+    color: var(--color-primary);
+}
+
+.sections__title {
+    padding: 0 20px;
+    text-align: end;
+    flex: 0 0 150px;
+} 
+
+.sections__content {
+    border-left: 0.2rem solid var(--color-primary);
+    padding: 0px 0px 5px 30px;
+    flex: 1 auto;
+}
+.sections__title h1 {
+    font-size: 2.5rem;
+}
+/* End of Common Class Styles */
+
 /* Start of About Me Section Styles */
 
 /* End of About Me Section Styles */
@@ -143,6 +146,8 @@ header nav ul li a {
     left: 0;
     transition: 0.5s;
 }
+
+
 
 .project-grid-item__title {
     position: absolute;
