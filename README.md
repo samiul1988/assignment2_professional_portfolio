@@ -26,10 +26,12 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ![Expected Outcome](./02-advanced-css-homework-demo.gif)
 
 #### My Actions
-* The project was created from scratch.
+* The project was created from scratch. I created two additional branches in the git repository (develop and html_css_base). I was thinking of creating additional branches for feature addition, but later realized that I am working along on this project and the project is created from scratch, so having those feature branches at this stage may not make sense. As such, I used the html_and_css branch to add all the commits and at the end merged to develop branch and then to main branch. I hope this will serve the purpose of using Git. 
 * I added one of my publicly available projects in the work section, and kept the other project cards as placeholders.
-* Optimized css file
-* Added comments to HTML file
+* Similarly, I added actual link to my  Github page, and kept the other links (i.e. phone, email, resume etc.) as placeholder for this project.
+* I've grabbed the images from the Gitlab content 
+* I have added comments to HTML and CSS files and optimized the files
+* I hope the url name is unique in repository sense, I could name it differently, but I thought this would be more reflective of the purpose of this link.
 
 #### Repository URL
 [Click here to see the final outcome](https://samiul1988.github.io/assignment2_professional_portfolio/)

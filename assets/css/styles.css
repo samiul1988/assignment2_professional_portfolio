@@ -41,7 +41,7 @@ header {
     padding: 10px 35px 10px 0;
 }
 
-header a {
+header a {  /* Removed default anchor styling */
     text-decoration: none;
     font-style: normal;
 }
@@ -56,7 +56,7 @@ header a {
     color: var(--color-primary);
 }
 
-.header__nav ul {
+.header__nav ul { /* Considered nav as a flexbox item */
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +82,7 @@ header a {
     transition: 0.5s ease-in;
 }
 
-.header__nav ul li a:hover {
+.header__nav ul li a:hover { /* animation to nav links */
     color: var(--color-primary);
     background-size: 100% 100%;
 }
@@ -115,14 +115,14 @@ header a {
     background-color: var(--color-secondary);
     padding: 5px 10px;
     font-size: 1.5rem;
-    border-radius: 0% 0% 50% 50%/ 250%;
+    border-radius: 0% 0% 50% 50%/ 250%;  /* fancy border */
     text-align: center;
 }
 
 /* End of Hero Section Styles */
 
 /* Start of Common Class Styles */
-.sections {
+.sections {  /* Considered each section as flexbox item */
     display: flex;
     justify-content: start;
     color: var(--color-primary);
