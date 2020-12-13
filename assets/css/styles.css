@@ -1,18 +1,18 @@
+/* Global Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 /* Variables */
 :root {
     --color-primary: rgb(70, 86, 113);
     --color-secondary: rgb(158, 206, 208);
     --color-tertiary: rgb(49, 52, 62);
     --color-background: rgb(237, 238, 246);
-    --font-main-title: 2.5rem;
+    --font-main-title: 3.0rem;
     --font-link: 1.2rem;
-}
-
-/* Global Reset */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 /* Start of Styling of HTML default tags */
@@ -43,6 +43,7 @@ header {
 
 header a {
     text-decoration: none;
+    font-style: normal;
 }
 
 .header__title {
@@ -66,16 +67,24 @@ header nav ul {
 header nav ul li {
     padding: 0 5px;
     margin: 0 5px; 
-    border-bottom: solid 3px var(--color-secondary);
     font-size: var(--font-link);
 }
 
 header nav ul li a {
+    margin: 3px;
+    padding: 3px 4px 5px 4px;
     color: var(--color-secondary);
+    font-size: var(--font-link);
+    background-image: linear-gradient(var(--color-secondary), var(--color-secondary));
+    background-repeat: no-repeat;
+    background-size: 100% 3px; 
+    background-position: bottom;
+    transition: 0.5s ease-in;
 }
 
 header nav ul li a:hover {
-    font-weight: bold;
+    color: var(--color-primary);
+    background-size: 100% 100%;
 }
 /* End of Header and Navbar Styles */
 
@@ -122,7 +131,7 @@ header nav ul li a:hover {
 .sections__title {
     padding: 0;
     text-align: end;
-    flex: 0 0 170px;
+    flex: 0 0 190px;
 } 
 
 .sections__content {
@@ -222,17 +231,26 @@ header nav ul li a:hover {
 }
 
 .contact__item {
-    border-bottom: solid 3px var(--color-primary);
+    margin: 0px;
 }
 
 .contact__item a {
+    margin: 3px;
+    padding: 3px 4px 5px 4px;
+    font-style: normal;
     text-decoration: none;
     color: var(--color-primary);
     font-size: var(--font-link);
+    background-image: linear-gradient(var(--color-primary), var(--color-primary));
+    background-repeat: no-repeat;
+    background-size: 100% 3px; 
+    background-position: bottom;
+    transition: 0.5s ease-in;
 }
 
 .contact__item a:hover {
-    font-weight: bold;
+    color: var(--color-secondary);
+    background-size: 100% 100%;
 }
 
 /* End of Contact Me Styles */
@@ -245,3 +263,4 @@ header nav ul li a:hover {
 .border-shadow {
     box-shadow: 0 0 10px var(--color-tertiary);
 }
+

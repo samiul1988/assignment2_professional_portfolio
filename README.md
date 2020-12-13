@@ -23,10 +23,13 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
 #### Sample Final Outcome (Obtained from assignment instruction)
-Placeholder
+![Expected Outcome](./02-advanced-css-homework-demo.gif)
 
 #### My Actions
-* Placeholder
+* The project was created from scratch.
+* I added one of my publicly available projects in the work section, and kept the other project cards as placeholders.
+* Optimized css file
+* Added comments to HTML file
 
 #### Repository URL
-Placeholder
+[Click here to see the final outcome](https://samiul1988.github.io/assignment2_professional_portfolio/)
