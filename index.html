@@ -38,12 +38,14 @@
     <main>
         <!-- Start of Hero/Jumbotron Section -->
         <section class="hero bg-cover">
-            
+            <div class="hero__content">
+
+            </div>
         </section>
         <!-- End of Hero/Jumbotron Section -->
 
         <!-- Start of About Me Section -->
-        <section id="about-me" class="sections about">
+        <section id="about-me" class="sections">
             <div class="sections__title">
                 <h1>About Me</h1>
             </div>
@@ -81,12 +83,16 @@
                     <div class="project-grid-container">
                         <!-- project one -->
                         <article class="project-grid-item item-main">
-                            <a href="#">
+                            <a 
+                                href="http://157.245.125.39:9000/" 
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 <div class="project-grid-item__img item-1 bg-cover"></div>
                             </a>
                             <div class="project-grid-item__title">
-                                <h3>Surf Report</h3>
-                                <p>MERN Stack</p> 
+                                <h3>NEF Contour Calc</h3>
+                                <p>React / Node JS</p> 
                             </div> 
                         </article>
 
@@ -146,23 +152,27 @@
                 <h1>Contact Me</h1>
             </div>
             <div class="sections__content contact">
-                <!-- <div class="contact"> -->
-                    <div>
-                        <a href="">555.555.5555</a>
-                    </div>
-                    <div>
-                        <a href="">example@website.com</a>
-                    </div>
-                    <div>
-                        <a href="">Github</a>
-                    </div>
-                    <div>
-                        <a href="">Twitter</a>
-                    </div>
-                    <div>
-                        <a href="">Spotify</a>
-                    </div>
-                <!-- </div> -->
+                <div class="contact__item">
+                    <a href="#">555.555.5555</a>
+                </div>
+                <div class="contact__item">
+                    <a href="#">example@website.com</a>
+                </div>
+                <div class="contact__item">
+                    <a 
+                        href="https://github.com/samiul1988" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Github
+                    </a>
+                </div>
+                <div class="contact__item">
+                    <a href="#">Twitter</a>
+                </div>
+                <div class="contact__item">
+                    <a href="#">Spotify</a>
+                </div>
             </div>
         </section>
         <!-- End of Contact Me Section -->
