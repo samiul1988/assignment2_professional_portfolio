@@ -209,10 +209,10 @@ header a {  /* Removed default anchor styling */
     background-image: url("../images/img-nef-locator.jpg");
 }
 .item-2 {
-    background-image: url("../images/02-portfolio-2.jpg");
+    background-image: url("../images/date-concierge.jpg");
 }
 .item-3 {
-    background-image: url("../images/02-portfolio-3.jpg");
+    background-image: url("../images/barrier-tool.jpg");
 }
 .item-4 {
     background-image: url("../images/02-portfolio-4.jpg");
@@ -264,6 +264,9 @@ header a {  /* Removed default anchor styling */
     box-shadow: 0 0 10px var(--color-tertiary);
 }
 
+.shift-bg {
+    background-position: 0px -40px;
+}
 /* End of Utility Classes */
 
 /* Media Query for smaller desktop screens */
