@@ -206,16 +206,16 @@ header a {  /* Removed default anchor styling */
 }
 
 .item-1 {
-    background-image: url("../images/img-nef-locator.jpg");
+    background-image: url("../images/envoy.jpg");
 }
 .item-2 {
-    background-image: url("../images/date-concierge.jpg");
+    background-image: url("../images/img-nef-locator.jpg");
 }
 .item-3 {
     background-image: url("../images/barrier-tool.jpg");
 }
 .item-4 {
-    background-image: url("../images/02-portfolio-4.jpg");
+    background-image: url("../images/date-concierge.jpg");
 }
 .item-5 {
     background-image: url("../images/02-run-buddy.jpg");
